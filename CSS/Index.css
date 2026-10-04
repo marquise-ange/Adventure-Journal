@@ -130,3 +130,29 @@ a {
 }
 
 
+.blog-section {
+    padding: 80px 8%;
+}
+
+.section-heading {
+    max-width: 650px;
+    margin-bottom: 40px;
+}
+
+.section-label {
+    margin-bottom: 10px;
+    color: var(--primary-color);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.section-heading h2 {
+    margin-bottom: 15px;
+    color: var(--secondary-color);
+    font-size: 2.5rem;
+}
+
+.section-heading p {
+    color: var(--light-text-color);
+}
