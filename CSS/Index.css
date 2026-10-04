@@ -204,3 +204,25 @@ a {
 
     font-size: 0.85rem;
 }
+
+.blog-card a {
+    display: block;
+    color: inherit;
+}
+
+.blog-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(23, 32, 27, 0.12);
+}
+
+.blog-card img {
+    transition: transform 0.3s ease;
+}
+
+.blog-card:hover img {
+    transform: scale(1.03);
+}
